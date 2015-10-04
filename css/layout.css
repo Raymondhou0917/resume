@@ -248,12 +248,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .main-col { padding-right: 0%; }
 
 
 .contextp{
-	line-height: 40px;
-	font-family: 'opensans-bold', sans-serif;
+	line-height: 35px;
+	font-family: 'opensans-bold', serif;
 	
 	
 }
@@ -261,7 +261,7 @@ ul#nav li.current a { color: #F06000; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 2px solid #E8E8E8;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -271,7 +271,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info span {
    margin-right: 5px;
-   margin-left: 5px;
+   margin-left: 0px;
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
@@ -328,27 +328,27 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 95%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 97%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 65%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
@@ -682,7 +682,6 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* No JavaScript Fallback */
-
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
 .no-js .slides > li:first-child { display: block; }
