@@ -262,7 +262,8 @@ ul#nav li.current a { color: #F06000; }
 
 .contextp{
 	line-height: 35px;
-	font-family: 'opensans-bold', serif;
+	font: 27px;
+	font-family: 'times new roman-bold', Times;
 	
 	
 }
