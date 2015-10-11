@@ -227,6 +227,11 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .contact-details { width: 40%; height: 40% }
 
+.workpic {
+
+	border-radius: 100%;
+	
+}
 
 
 /* ------------------------------------------------------------------ */
@@ -262,8 +267,8 @@ ul#nav li.current a { color: #F06000; }
 
 .contextp{
 	line-height: 35px;
-	font: 27px;
-	font-family: 'times new roman-bold', Times;
+	font size: 35px;
+	font-family: 'times-bold', Times;
 	
 	
 }
@@ -434,7 +439,7 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   background: rgba(o.o.o.o);
    overflow: hidden;
    position: relative;
 
@@ -447,6 +452,7 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+   border-radius: 100%;
 }
 
 /* overlay */
@@ -469,7 +475,6 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
-   color: #fff;
    height: 30px;
    width: 30px;
    font-size: 18px;
@@ -512,11 +517,13 @@ ul#nav li.current a { color: #F06000; }
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
+	border-radius: 100%;
 }
 .portfolio-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
+	border-radius: 100%;
 }
 
 /* popup modal 
@@ -600,7 +607,6 @@ ul#nav li.current a { color: #F06000; }
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
-
    position: relative;
    min-height: 200px;
    width: 100%;
