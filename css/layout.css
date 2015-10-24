@@ -33,7 +33,7 @@ header {
    height: 900px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url('../images/header-background.jpg') no-repeat top center;
+   background: #161415 url('../images/ss.png') no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -59,7 +59,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'PingFang', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -268,7 +268,7 @@ ul#nav li.current a { color: #F06000; }
 .contextp{
 	line-height: 35px;
 	font size: 35px;
-	font-family: 'times-bold', Times;
+	font: 'PingFang', bold;
 	
 	
 }

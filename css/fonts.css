@@ -138,6 +138,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'PingFang';
+    src: url('fonts/opensans/PingFang.ttc');
+    src: url('fonts/opensans/PingFang.ttc') format('embedded-opentype'),
+         url('fonts/opensans/PingFang.ttc') format('woff'),
+         url('fonts/opensans/PingFang.ttc') format('truetype'),
+         url('fonts/opensans/PingFang.ttc') format('svg');
+    font-weight: bold;
+    font-style: bold;
+}
+
 
 /*
  * FIXED for Font-Face Chrome Rendering
